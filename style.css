@@ -1,0 +1,203 @@
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+}
+h3{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+                        /*En-tête*/
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 5%;
+    height: 5%;
+}
+nav{
+    width: 15%;
+}
+.ul-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.li-navigation:hover{
+    border-top: 1px solid #0065FC;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+                        /*Section 1*/
+section{
+    padding: 0 30px 0 30px;
+}
+h1{
+    font-size:22px;
+}
+/*Barre de recherche*/
+.barre-de-recherche{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.height-search{
+    height: 50px;
+}
+.center-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fa-location-dot{
+    text-align: center;
+    background-color: #F2F2F2;
+    width: 3%;
+    border-radius: 17px 0 0 17px;
+}
+.search{
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    width: 12.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 13px;
+}
+.button-search{
+    font-size: medium;
+    background-color: #0065FC;
+    border-radius:0 17px 17px 0;
+    color: white;
+    width: 7%;
+    cursor: pointer;
+    border: 0px solid transparent;
+}
+.font-weight-search{
+    font-weight: bold;
+}
+/*Filtres*/
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+}
+.title-filter{
+    font-size: large;
+    font-weight: bold;
+}
+.theme-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top:1px solid #F2F2F2;
+    border-bottom:1px solid #F2F2F2;
+    border-right:1px solid #F2F2F2;
+    border-radius:30px;
+}
+.filter-backgroud{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEEBFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    color: #0065FC;
+}
+.text-filter{
+    margin: 0 25px 0 15px;
+    font-weight: bold;
+}
+/*Infos*/
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+}
+.icon-infos{
+    font-size: small;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+}
+                    /*Section 2*/
+.section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 850px;
+}
+.accomodation-a-marseille{
+    width: 65%;
+}
+.background-accomodation{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 40px;
+}
+.cards-accomodation-marseille{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 85%;
+}
+.hotel-marseille{
+    width: 32%;
+    height: 42%;
+    background-color: white;
+    border-radius: 20px;
+}
+.img-accomodation-marseille{
+    width: 97.5%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    border: 5px solid white;
+    object-fit: cover;
+}
+.accomodation-margin{
+    margin-left: 15px;
+}
+.p-accomodation-margin{
+    margin: 10px 0 10px 0;
+}
+.star-blue{
+    color: #0065FC;
+}
+.star-grey{
+    color: #F2F2F2;
+}
+/*Aside*/
+aside{
+    width: 25%;
+}
+.img-accomodation-star{
+    width: 20%;
+}
