@@ -1,6 +1,5 @@
 body {
     font-family: Raleway, sans-serif;
-    margin: 0;
 }
 h3{
    margin-top: 5px;
@@ -35,6 +34,12 @@ li{
 a{
     color: black;
     text-decoration: none;
+}
+button{
+    border: 0px solid transparent;
+    background-color: transparent;
+    font-weight:bold;
+    font-size: medium;
 }
 
                         /*Section 1*/
@@ -172,6 +177,8 @@ h1{
 .hotel-marseille{
     width: 32%;
     height: 42%;
+}
+.background-hotel{
     background-color: white;
     border-radius: 20px;
 }
@@ -198,6 +205,74 @@ h1{
 aside{
     width: 25%;
 }
+.display-popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.star-popular{
+    font-size: larger;
+}
+.height-popular{
+    height: 90%;
+    margin-top: 27px;
+}
 .img-accomodation-star{
-    width: 20%;
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+    border: 5px solid white;
+    object-fit: cover;
+}
+.title-popular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-popular-hotel{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    border-radius: 20px;
+}
+.text-popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.card-accomodation:hover{
+    transform: scale(1.05);
+    transition: linear 0.3s;
+}
+.activités{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+}
+.section3{
+    height: 800px;
+    margin-top: 50px;
+}
+.card-activité{
+    width: 23%;
+}
+.full-height-activity{
+    height: 100%;
+}
+.img-full-activité{
+   width: 100%;
+   height: 90%;
+   object-fit: cover;
+}
+.medium-height-activity{
+    height: 40%;
+}
+.img-medium-activity{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
 }
